@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    min-height: 300px;
+    background-color: #1f2937;
+    padding: 10px 230px;
+    color: white;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+   
+}
+ ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0%;
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 76px 0;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.header-img {
+    width: 600px;
+    min-height: 300px;
+    background-color: #808691;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.header-info {
+    width: 450px;
+}
+button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+}
+.content {
+    flex: 1;
+}
+.section-one {
+    text-align: center;
+    padding: 24px 0;
+
+}
+.section-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.items-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.items {
+    width: 200px;
+}
+.item-card {
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid 3px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+}
+.quote-container {
+    width: 750px;
+}
+.quote {
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 36px;
+}
+.call-section {
+    padding: 66px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.call-section button{
+    border: 1px white solid;
+}
+.call-container {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 46px;
+}
+.call-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 56px 0;
+    color: white;
+}
